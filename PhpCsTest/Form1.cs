@@ -24,7 +24,7 @@ namespace PhpCsTest
             
             this.Text = "サンプル";
             this.Width = 250;
-            this.Height = 100;
+            this.Height = 200;
 
             lb = new Label();
             lb.Text = "C#よりPHPを召喚ッ！！";
@@ -37,14 +37,15 @@ namespace PhpCsTest
 
             btGet = new Button();
             btGet.Text = "データの呼び出し";
-            btGet.Top = this.Top + lb.Height;
+            btGet.Top = this.Top + lb.Height + btPut.Height;
             btGet.Width = lb.Width;
 
             btPut.Parent = this;
             btGet.Parent = this;
             lb.Parent = this;
 
-            // bt.Click += new EventHandler(bt_Click);
+            btPut.Click += new EventHandler(BtnInsert_Click);
+            btGet.Click += new EventHandler(BtnGet_Click);
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -99,12 +100,12 @@ namespace PhpCsTest
                 }
             }
         }
-
+        
         private void BtnInsert_Click(object sender, EventArgs e)
         {
             InsertData("SETO_KOUJI");
         }
-
+        
         private void BtnGet_Click(object sender, EventArgs e)
         {
             GetData();
