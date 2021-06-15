@@ -44,7 +44,8 @@ namespace PhpCsTest
             btGet.Parent = this;
             lb.Parent = this;
 
-            Handler.URL = "http://localhost:8080/testPhpCs/index.php";
+            // Handler.URL = "http://localhost:8080/testPhpCs/index.php"; // Docker
+            Handler.URL = "http://localhost/myapps/PhpCsTest/index.php"; // XAMPP
             btPut.Click += new EventHandler(BtnInsert_Click);
             btGet.Click += new EventHandler(BtnGet_Click);
         }
@@ -108,7 +109,7 @@ namespace PhpCsTest
         
         private void BtnInsert_Click(object sender, EventArgs e)
         {
-            InsertData("SETO_KOUJI");
+            InsertData("✟ 黒野堕天男 ✟");
         }
         
         private void BtnGet_Click(object sender, EventArgs e)
