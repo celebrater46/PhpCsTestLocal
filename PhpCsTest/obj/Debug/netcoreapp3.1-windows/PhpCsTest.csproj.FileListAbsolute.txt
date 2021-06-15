@@ -1,0 +1,15 @@
+C:\Users\Enin\RiderProjects\PhpCsTest\PhpCsTest\bin\Debug\netcoreapp3.1-windows\PhpCsTest.exe
+C:\Users\Enin\RiderProjects\PhpCsTest\PhpCsTest\bin\Debug\netcoreapp3.1-windows\PhpCsTest.deps.json
+C:\Users\Enin\RiderProjects\PhpCsTest\PhpCsTest\bin\Debug\netcoreapp3.1-windows\PhpCsTest.runtimeconfig.json
+C:\Users\Enin\RiderProjects\PhpCsTest\PhpCsTest\bin\Debug\netcoreapp3.1-windows\PhpCsTest.runtimeconfig.dev.json
+C:\Users\Enin\RiderProjects\PhpCsTest\PhpCsTest\bin\Debug\netcoreapp3.1-windows\PhpCsTest.dll
+C:\Users\Enin\RiderProjects\PhpCsTest\PhpCsTest\bin\Debug\netcoreapp3.1-windows\PhpCsTest.pdb
+C:\Users\Enin\RiderProjects\PhpCsTest\PhpCsTest\bin\Debug\netcoreapp3.1-windows\Newtonsoft.Json.dll
+C:\Users\Enin\RiderProjects\PhpCsTest\PhpCsTest\obj\Debug\netcoreapp3.1-windows\PhpCsTest.csprojAssemblyReference.cache
+C:\Users\Enin\RiderProjects\PhpCsTest\PhpCsTest\obj\Debug\netcoreapp3.1-windows\PhpCsTest.AssemblyInfoInputs.cache
+C:\Users\Enin\RiderProjects\PhpCsTest\PhpCsTest\obj\Debug\netcoreapp3.1-windows\PhpCsTest.AssemblyInfo.cs
+C:\Users\Enin\RiderProjects\PhpCsTest\PhpCsTest\obj\Debug\netcoreapp3.1-windows\PhpCsTest.csproj.CoreCompileInputs.cache
+C:\Users\Enin\RiderProjects\PhpCsTest\PhpCsTest\obj\Debug\netcoreapp3.1-windows\PhpCsTest.csproj.CopyComplete
+C:\Users\Enin\RiderProjects\PhpCsTest\PhpCsTest\obj\Debug\netcoreapp3.1-windows\PhpCsTest.dll
+C:\Users\Enin\RiderProjects\PhpCsTest\PhpCsTest\obj\Debug\netcoreapp3.1-windows\PhpCsTest.pdb
+C:\Users\Enin\RiderProjects\PhpCsTest\PhpCsTest\obj\Debug\netcoreapp3.1-windows\PhpCsTest.genruntimeconfig.cache
