@@ -44,17 +44,20 @@ namespace PhpCsTest
             btGet.Parent = this;
             lb.Parent = this;
 
+            Handler.URL = "http://localhost:8080/testPhpCs/index.php";
             btPut.Click += new EventHandler(BtnInsert_Click);
             btGet.Click += new EventHandler(BtnGet_Click);
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            Handler.URL = "http://localhost:8080/testPhpCs/index.php";
-        }
+        // private void Form1_Load(object sender, EventArgs e)
+        // {
+        //     Handler.URL = "http://localhost:8080/testPhpCs/index.php";
+        // }
 
         private static void InsertData(string data)
         {
+            // Handler.URL = "http://localhost:8080/testPhpCs/index.php";
+            
             var values = new NameValueCollection();
             values["type"] = "t_insert_data";
             values["data"] = data;
@@ -79,6 +82,8 @@ namespace PhpCsTest
 
         private static void GetData()
         {
+            // Handler.URL = "http://localhost:8080/testPhpCs/index.php";
+            
             var values = new NameValueCollection();
             values["type"] = "t_get_data";
             string result = Handler.DoPost(values);
